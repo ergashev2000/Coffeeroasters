@@ -1,3 +1,7 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,900&family=Montserrat:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces:opsz,wght@9..144,900&family=Montserrat:wght@100&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -9,22 +13,12 @@
     max-width: 1400px;
 }
 
-@font-face {
-    font-family: 'Fraunces-Black';
-    src: url(/fonts/Fraunces-Black.ttf);
-}
-
-@font-face {
-    font-family: 'Barlow';
-    src: url(/fonts/Barlow-Regular.ttf);
-}
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 50px;
-
 }
 
 nav {
@@ -77,7 +71,7 @@ nav {
     font-size: 72px;
     line-height: 72px;
     color: #FEFCF7;
-    font-family: 'Fraunces-Black', sans-serif;
+    font-family: 'Fraunces', sans-serif;
 }
 
 .hero_text>p {
@@ -105,7 +99,7 @@ nav {
     text-align: center;
     color: #FEFCF7;
     transition: all .7s;
-    font-family: 'Fraunces-Black', sans-serif;
+    font-family: 'Fraunces', sans-serif;
 }
 
 .hero_btn>a:hover {
@@ -148,7 +142,7 @@ nav {
 }
 
 .product_card>a>h3 {
-    font-family: 'Fraunces-Black', sans-serif;
+    font-family: 'Fraunces', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
@@ -208,7 +202,7 @@ nav {
 }
 
 .service_title>h2 {
-    font-family: 'Fraunces-Black', sans-serif;
+    font-family: 'Fraunces', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 40px;
@@ -230,7 +224,7 @@ nav {
 
 .service_card>h3 {
     margin: 50px 0 30px 0;
-    font-family: 'Fraunces-Black', sans-serif;
+    font-family: 'Fraunces', sans-serif;
     font-size: 24px;
     line-height: 32px;
 
@@ -289,7 +283,7 @@ nav {
 
 .plan_box>h3 {
     font-size: 32px;
-    font-family: 'Fraunces-Black', sans-serif;
+    font-family: 'Fraunces', sans-serif;
     color: #333D4B;
     width: 80%;
 }
@@ -309,7 +303,7 @@ nav {
     border-radius: 6px;
     padding: 15px 30px;
     font-size: 18px;
-    font-family: 'Fraunces-Black', sans-serif;
+    font-family: 'Fraunces', sans-serif;
     color: #FEFCF7;
     transition: all .6s;
     text-decoration: none;
@@ -321,7 +315,7 @@ nav {
 
 .plan_box span {
     font-size: 72px;
-    font-family: 'Fraunces-Black', sans-serif;
+    font-family: 'Fraunces', sans-serif;
     color: #FDD6BA;
 }
 
@@ -381,7 +375,7 @@ footer{
 .plan_title{
     color: #83888F;
     font-size: 24px;
-    font-family: 'Fraunces-Black', sans-serif;
+    font-family: 'Fraunces', sans-serif;
     margin: 50px;
 }
 .service_card > svg > path{
